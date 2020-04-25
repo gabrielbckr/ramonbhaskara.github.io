@@ -1,0 +1,83 @@
+/* - Não usar elementos fixed
+   - Usar width e height em porcentagem ao invés de números
+   - Não usar posição absolute
+   - Usar @media pra modificar o comportamento do site para computador (mobile-first)*/
+
+/*Usar esse código sempre em todos sites*/
+*{
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: #f2dd72;
+    text-align: center;
+}
+
+.container1 #img1{
+    width: 50%;
+    max-width: 200px;
+    background-color: #f2dd72;
+    padding: 40px 4vw 0 4vw;
+}
+
+.container1 h2{
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 4vw 0 4vw;
+}
+
+.container1 #p1{
+    padding: 15.5px 0 15.5px 0;
+    font-size: 7vw;
+    font-weight: bolder;
+    padding: 0 4vw 0 4vw;
+}
+
+.container1 p{
+    padding: 10px 0 10px 0;
+    font-size: 7vw;
+    font-weight: lighter;
+    padding: 0 4vw 0 4vw;
+}
+
+.container1 #img2{
+    position: absolute;
+    left: 4vw;
+    width: 92%;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.container1 #section{
+    background-color: white;
+    margin-top: 100px;
+    padding-top: 150px;
+}
+
+.container2{
+    border-top: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.container3{
+    border-top: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.container4{
+    border-top: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.contato{
+    background-color: lightgray;
+}
+
+.footer{
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+}
